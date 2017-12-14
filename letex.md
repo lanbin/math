@@ -1,7 +1,3 @@
-@knight 2015-07-03 09:12 字数 4660 阅读 3136
-MathJax使用LaTeX语法编写数学公式教程
-LaTex
-
 https://www.zybuluo.com/knight/note/96093
 
 此文转载于老黄博客，在此由于编辑器支持仅作简单修改，感谢博主的热心分享。
@@ -22,7 +18,8 @@ LaTeX的数学公式有两种：行中公式和独立公式。行中公式放在
 显示：
 如何插入公式大括号
 方法一：
-$$ f(x)=\left\{
+$$
+f(x)=\left\{
 \begin{aligned}
 x & = & \cos(t) \\
 y & = & \sin(t) \\
@@ -31,27 +28,24 @@ z & = & \frac xy
 \right.
 $$
 方法二：
-$$ F^{HLLC}=\left\{
+
+$$
+F^{HLLC}=\left\{
 \begin{array}{rcl}
 F_L       &      & {0      <      S_L}\\
 F^*_L     &      & {S_L \leq 0 < S_M}\\
 F^*_R     &      & {S_M \leq 0 < S_R}\\
 F_R       &      & {S_R \leq 0}
-\end{array} \right. $$
+\end{array} \right.
+$$
 方法三:
-$$f(x)=
+$$
+f(x)=
 \begin{cases}
 0& \text{x=0}\\
 1& \text{x!=0}
-\end{cases}$$
-方法一：
-
-
-方法二：
-
-
-方法三:
-
+\end{cases}
+$$
 
 如何输入上下标
 ^表示上标, _表示下标。如果上下标的内容多于一个字符，要用{}把这些内容括起来当成一个整体。上下标是可以嵌套的，也可以同时使用。
@@ -64,10 +58,13 @@ $$f(x)=
 例子：$\sideset{^1_2}{^3_4}\bigotimes$
 
 显示：
-$$\max_{k}$$
+$$
+\max_{k}
+$$
 
-
-$$\mathop{argmax}_{K}$$
+$$
+\mathop{argmax}_{K}
+$$
 如何输入括号和分隔符
 ()、[]和|表示自己，{}表示{}。当要显示大号的括号或分隔符时，要用\left和\right命令。
 
@@ -130,8 +127,7 @@ $$\lim_{n \rightarrow +\infty} \frac{1}{n(n+1)}$$
 \varrho　　\sigma　\Sigma　\varsigma　　\tau　T　\upsilon　\Upsilon 
 \phi　\Phi　\varphi　　\chi　X　\psi　\Psi　\omega　\Omega
 
-显示： 
-
+显示：
 $$
 \alpha　A　\beta　B　\gamma　\Gamma　\delta　\Delta　\epsilon　E 
 \varepsilon　　\zeta　Z　\eta　H　\theta　\Theta　\vartheta 
