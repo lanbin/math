@@ -143,6 +143,20 @@ $$
 \frac{d}{dx} \ln{x}= \frac{1}{x}
 $$
 
+$$
+\frac{d}{dx} \sin{x} = \cos{x}
+$$
+
+$$
+\frac{d}{dx}\cos{x} = - \sin{x}
+$$
+
+
+
+
+
+
+
 
 
 
