@@ -64,8 +64,23 @@ f(x) = (2x + 3) ^ 5
 $$
 
 $$
-f'(x) = ((2x+3)(2x+3)^4)'
+f'(x) = 2 \ast 5 \ast (2x + 3) ^ 4 = 10 \ast (2x + 3) ^4
 $$
+
+
+
+再再来：
+$$
+f(x) = (x^3 + 2x^2 - x^\left(-2\right))^ \left(-7\right)
+$$
+
+$$
+f'(x) = (3x^2 + 4x +2x^\left(-3\right)) * (-7)*  (x^3 + 2x^2 - x^\left(-2\right))^ \left(-8\right) = (-21x^2 -28x -14x^\left(-3\right)) *   (x^3 + 2x^2 - x^\left(-2\right))^ \left(-8\right)
+$$
+
+
+
+
 
 
 
