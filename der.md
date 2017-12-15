@@ -136,8 +136,17 @@ $$
 
 
 $$
+\frac{d}{dx} e^x = e^x 
+$$
 
 $$
+\frac{d}{dx} \ln{x}= \frac{1}{x}
+$$
+
+
+
+
+
 
 
 
